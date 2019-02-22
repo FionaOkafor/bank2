@@ -1,1 +1,0 @@
-<a href="http://localhost:1234/bank-2/verify-by-link/activation-page?phone=25252525&activation-key=A1B2">Click here to activate the account</a>
