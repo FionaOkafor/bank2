@@ -1,0 +1,132 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color:#f1f1f1;
+}
+
+input.invalid {
+    border: 1px solid red;
+}
+.sticky{
+    background-color:#00005E;
+    
+    height:75px;
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+width:100vw;
+padding:1em;
+position: fixed; /* Set the navbar to fixed position */
+top: 0; 
+
+}
+
+    nav{
+        grid-area: nav;
+        display:flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    
+    }
+    nav a{
+        text-decoration: none;
+       margin:10px 80px 10px 10px;
+       text-decoration: none;
+color: #B6D4FD;
+
+    }
+ #logo{
+    text-decoration: none;
+    color: #B6D4FD;
+ }
+
+ main{
+    margin-top:100px;
+ }
+ 
+ @media (min-width:650px) {
+    section {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas: "hd hd hd hd" "lf md md rt";
+        grid-gap: 5px;
+    }
+
+    header {
+         grid-area: hd;
+         text-align: center;
+    }
+    #left {
+        grid-area: lf;
+    }
+    #middle {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+      text-align: center;
+      justify-items: center;
+        grid-area: md;
+    }
+    #right{
+        grid-area: rt;
+    }
+}
+
+.sign-up-button {
+
+    font-size: 1em;
+    width: 75%;
+    background-color: #00005E;
+    border-radius:8px;
+    color: white;
+    border: 1px solid;
+    padding: 15px;
+ margin:10px;
+}
+
+form{
+
+    text-align: center;
+}
+
+input{
+    border: 0;
+    outline: 0;
+    padding: 1em;
+    border-radius: 8px;
+    display: block;
+    width: 100%;
+    margin-top: 1em;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    resize: none;
+    font-size: 20px;
+   
+}
+input:-webkit-autofill {
+    box-shadow: 0 0 0px 1000px white inset;
+}
+
+.small-button{
+    font-size: 0.75em;
+    width: 25%;
+    background-color: #D8E4EB;
+    border-radius:8px;
+    color: #000000;
+    border: 0;
+    padding: 5px;
+ margin:10px;
+}
+
+#profile-header {
+    text-align: left;
+}
+
+table{
+    width:90%;
+    border:1px solid pink;
+}
